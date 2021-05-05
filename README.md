@@ -2,7 +2,7 @@
 
 ### Installation
 
-After cloning the repository to app directory in your project.
+After cloning the repository to app/Instagram directory in your project.
 
 Run the following commands
 ```sh
