@@ -19,20 +19,9 @@ use Symfony\Component\Cache\Adapter\FilesystemAdapter;
 
 class InstagramService
 {
-    /**
-     * @var InstagramApi
-     */
-    protected $api;
-
-    /**
-     * @var InstagramProfile
-     */
-    protected $profile;
-
-    /**
-     * @var InstagramRepositoryInterface
-     */
-    protected $repository;
+    protected InstagramApi $api;
+    protected InstagramProfile $profile;
+    protected InstagramRepositoryInterface $repository;
 
     /**
      * InstagramService constructor.

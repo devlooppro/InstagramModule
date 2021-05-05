@@ -9,50 +9,15 @@ use Storage;
 
 class Story
 {
-    /**
-     * @var int
-     */
-    public $id;
-
-    /**
-     * @var string|null
-     */
-    public $displayOriginalUrl = null;
-
-    /**
-     * @var string|null
-     */
-    public $displayUrl = null;
-
-    /**
-     * @var string|null
-     */
-    public $displayPath = null;
-
-    /**
-     * @var string|null
-     */
-    public $videoOriginalUrl = null;
-
-    /**
-     * @var string|null
-     */
-    public $videoUrl = null;
-
-    /**
-     * @var string|null
-     */
-    public $videoPath = null;
-
-    /**
-     * @var float
-     */
-    public $videoDuration = 0;
-
-    /**
-     * @var string|null
-     */
-    public $mention = null;
+    public int $id;
+    public ?string $displayOriginalUrl = null;
+    public ?string $displayUrl = null;
+    public ?string $displayPath = null;
+    public ?string $videoOriginalUrl = null;
+    public ?string $videoUrl = null;
+    public ?string $videoPath = null;
+    public float $videoDuration = 0;
+    public ?string $mention = null;
 
     /**
      * Post constructor.
