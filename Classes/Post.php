@@ -57,7 +57,7 @@ class Post
     /**
      * @var bool
      */
-    public bool $isVideo;
+    public $isVideo;
 
     /**
      * Post constructor.
